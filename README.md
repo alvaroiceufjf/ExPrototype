@@ -33,7 +33,8 @@ classDiagram
         +clone() PropostaConsorcio
         +toString() String
     }
-```
+
     Cloneable <|.. GrupoConsorcio : implementa
     Cloneable <|.. PropostaConsorcio : implementa
     PropostaConsorcio "1" --> "1" GrupoConsorcio : possui (cópia profunda)
+```
